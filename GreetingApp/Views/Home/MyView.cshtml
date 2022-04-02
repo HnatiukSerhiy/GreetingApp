@@ -1,0 +1,22 @@
+﻿@model GreetingApp.Models.Person
+
+@{ 
+    Layout = null;
+}
+<html>
+    <head>
+        <meta name ="viewport" content="width=device-width" />
+        <title>My page</title>
+        <link rel="stylesheet" href="~/css/style.css" />
+    </head>
+    <body>
+        <div class="form-container">
+            <form method="post" asp-action="Greeting">
+                <label asp-for="Name">Enter yor name:</label>
+                <br />
+                <input asp-for="Name"/>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
