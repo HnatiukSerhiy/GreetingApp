@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace GreetingApp.Models
 {
-    public class Person
+    public class PersonViewModel
     {
         public string Name { set; get; }
     }
